@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@-moz-@viewport{ width: device-width; scale: 1;}
+@ms-@viewport{ width: device-width; scale: 1;}
+@-o-@viewport{ width: device-width; scale: 1;}
+@-webkit-@viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	@-moz-text-size-adjust:100%;	
+	@-ms-text-size-adjust:100%;	
+	@-o-text-size-adjust:100%;	
+	@-webkit-text-size-adjust:100%;	
+	text-size-adjust:100%;
+}
+
+html, body{
+	width:100%;
+	font-family:"Times New Roman", Times, serif;
+/*	font-size: 1.10rem;
+*/	margin:0;
+	padding:0;
+}
+
+img{
+	width:100%;
+
+}
+
+.logo{
+	margin:-10rem 40%;
+	padding:10rem 0;
+	width: 20%;
+	display: inline-block;
+
+}
+
+.main{
+	width:90%;
+	margin: 3rem 10%;
+}
+
+.main h2{
+	font-size: 1.5rem;
+	text-align:center;
+	padding: 1rem;	
+}
+
+	
+.header h1{
+	margin:0;
+	padding:0;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.main p{
+	font-size:1.20rem;
+	line-height:1.25rem;
+	text-align:left;
+	margin-bottom:1rem;
+	margin-left:-1rem;
+	margin-right:3rem;
+	margin-top:.5rem;
+}
+
+.image1{
+	margin:0 -5% 0 -5%;
+}
+
+.schedule{
+	padding: 1rem 5%;
+}
+
+.prices{
+	padding: 0 2%
+	}
+
+.nav-top{
+	display:block;
+}
+
+.nav-top[data-state"expanded"]{
+	display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited{
+	background-color: grey;
+	text-align: center;
+	display:block;
+	color: white;
+	padding:.25rem;
+	margin: 0;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active{
+	background-color: black;
+}
+
+footer p{
+	font-size:1rem;
+	font-family:"MS Serif", "New York", serif;
+	padding-left: 1rem;
+}
